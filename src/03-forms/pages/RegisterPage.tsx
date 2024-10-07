@@ -54,7 +54,7 @@ export const RegisterPage = () => {
                     className={`${ password.trim().length < 6 && password.trim().length > 0 && 'has-error'} ${password.trim().length <= 0 && 'has-error'}`}
                 />
                 { password.trim().length <= 0 && <span>Este campo es necesario</span> }
-                { password.trim().length < 6 && password.trim().length > 0 && <span>La contraseña debe contener al menos 6 carácteres</span> }
+                { password.trim().length < 6 && password.trim().length > 0 && <span>La contraseña debe contener al menos 6 caracteres</span> }
 
                 <input
                     type="password"
